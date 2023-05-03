@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.home-title {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    margin: 0 auto;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.home-score-bg{
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+#score-home-el{
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    margin: 0 auto;
+    top: 5px;
+    left: 13px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color:red;
+}
+
+#onepoint-home-el {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+#twopoint-home-el {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 136px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+#threepoint-home-el{
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 192px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.guest-title {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 68px;
+    margin: 0 auto;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+.guest-score-bg{
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+}
+#score-guest-el{
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    margin: 0 auto;
+    top: 5px;
+    left: 13px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color:red;
+}
+
+#onepoint-guest-el{
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+#twopoint-guest-el{
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 391px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+#threepoint-guest-el{
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 447px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.btn{
+    position: absolute;
+    background-color: antiquewhite; 
+    width: 30px;
+    height: 25.77px;
+    left: 89px;
+    top: 280px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color:red;
+}
